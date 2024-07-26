@@ -1,0 +1,167 @@
+body {
+    color: #065081;
+    background: #1e1f24;
+    text-align: center;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  */
+    font-family: 'Courier New', sans-serif;
+    font-size: 1rem;
+    margin: 0;
+    padding: 0;
+    border-radius: 0.5rem
+}
+
+#container {
+    width: 85%;
+    padding: 1rem;
+    text-align: justify;
+    /* border: 1px solid #ddd; */
+    margin: 0 auto;
+}
+
+#cabecera {
+    background-color: #ffffff;
+    /*background: linear-gradient(to bottom, #d4e5ff 0%, #ffffff 50%, #ffffff 50%, #d4e5ff 100%);*/
+    box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.5);
+    border-bottom: 1px dashed #8e989e;
+    color: #021b2c;
+    font-weight: bold;
+    margin: 0;
+    padding: 0.8rem;
+}
+#scenarios {
+    background-color: #ffffff;
+    /*box-shadow: 0px 2px 20px 0px #004b7c;*/
+    border-bottom: 1px dashed #8e989e;
+    color: #021b2c;
+    font-weight: bold;
+    margin: 0;
+    padding: 3rem;
+    text-align: justify;
+}
+#collective {
+    background-color: #ffffff;
+    /*box-shadow: 0px 2px 20px 0px #004b7c;*/
+    border-bottom: 1px dashed #8e989e;
+    color: #021b2c;
+    font-weight: bold;
+    margin: 0;
+    padding: 3rem;
+    text-align: justify;
+}
+#results {
+    background-color: #ffffff;
+    border-bottom: 1px dashed #8e989e;
+    color: #021b2c;
+    font-weight: bold;
+    margin: 0;
+    padding: 3rem;
+    text-align: justify;
+}
+#logos {
+    text-align: right; /* Centra las imágenes horizontalmente dentro del contenedor */
+    margin-top: -8%; /* Añade un margen superior para separar las imágenes del contenido anterior */
+}
+#logos img {
+    width: 10%; /* Establece el ancho deseado para las imágenes */
+    margin: 0%; /* Añade un margen horizontal entre las imágenes */
+}
+/* IMAGEN DIAGRAMA DE TESIS */
+#cabecera #tesis {
+    width: 70%;
+    vertical-align: center;
+    border-radius: 5%;
+}
+#cabecera #modeloRM {
+    width: 50%;
+    vertical-align: center;
+    border-radius: 10%;
+}
+/* IMÁGENES SCENARIOS SIMULACIÓN */
+
+.imagenes-escenario {
+    display: flex;
+    /*align-items: center;
+    /*justify-content: space-between;*/
+    margin: 0 auto;
+    width: 50%;
+    height: 100%;
+}
+
+.imagenes-escenario img {
+    /*max-width: 33%;*/
+    /*margin: 0 1px;*/
+    width: 0%;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: 0.8;
+    border-radius: 5%;
+    /*transition: transform 0.5s ease-in-out;*/
+    transition: 0.5s ease
+}
+.imagenes-escenario img:hover {
+    cursor: crosshair;
+    width: 70%;
+    opacity: 1;
+    filter: contrast(120%);
+    /*transform: scale(1.1);*/
+}
+
+/* Botones de navegación */
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+
+header nav ul li {
+    display:inline-block;
+    margin-right: 1%;
+}
+
+header nav ul li a {
+    display:inline-block;
+    padding: 5% 5%;
+    background: #1e1f24;
+    color: #ffffff;
+    text-decoration:none;
+    border-radius: 40%;
+}
+
+header nav ul li a:hover {
+    background-color: #054068;
+    color: #ffffff;
+    /*text-decoration:underline;*/
+}
+
+/* etiqueta footer final de pagina*/
+
+#footer {
+    text-align:center;
+    /*padding: 1%;*/
+    display: inline-block;
+    font-size: 0.9rem;
+    color: #cfcfcf;
+}
+#footer a {
+    text-decoration: none; /* Quita el subrayado por defecto */
+    color: #cfcfcf; /* Color por defecto del texto */
+}
+
+#footer a:hover {
+    text-decoration: underline; /* Subrayado al pasar el cursor */
+}
+
+#footer a:active {
+    color: #cfcfcf; /* Mantener el color del texto al hacer clic */
+}
+
+
+/* ESTILO DE LOS VIDEOS */
+.video-container {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    margin-top: 3%; /* Ajusta según sea necesario */
+}
